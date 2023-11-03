@@ -39,7 +39,7 @@ C:\Program Files\NetLogo 6.3.0\models\Sample Models\Biology\Wolf Sheep Predation
 Використовувана **міра**:  
 Для фітнес-функції *(вона ж функція пристосованості або цільова функція)* було обрано **різниця по модулю між популяціями вовків та овець**:
 <pre>
-mean [ speed ] of turtles
+abs (count sheep - count wolves)
 </pre>
 
 Загальний вигляд вкладки налаштувань параметрів моделі:
